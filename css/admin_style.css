@@ -37,7 +37,7 @@
 }
 
 *::-webkit-scrollbar-thumb{
-   background-color: var(--purple);
+   background-color: var(--light-white);
 }
 
 html{
@@ -121,7 +121,7 @@ section{
 
 .white-btn,
 .btn{
-   background-color: var(--purple);
+   background-color: var(--red);
 }
 
 .option-btn{
