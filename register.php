@@ -34,7 +34,8 @@ if(isset($_POST['submit'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>register</title>
+   <title>Skidadle</title>
+   <link rel="icon" type="image/png" href="images\skidadle.png">
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -70,13 +71,12 @@ if(isset($message)){
       <input type="password" name="cpassword" placeholder="confirm your password" required class="box">
       <select name="user_type" class="box">
          <option value="user">user</option>
-         <option value="admin">admin</option>
+        <!-- <option value="admin">admin</option> -->
       </select>
       <input type="submit" name="submit" value="register now" class="btn">
       <p>already have an account? <a href="login.php">login now</a></p>
    </form>
 
 </div>
-
 </body>
 </html>
